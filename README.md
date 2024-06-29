@@ -1,6 +1,8 @@
 # typst-colored-article
 Typst template for articles, useful to deliver reports with some colors.
 
+## Use
+
 ```typst
 #import "colored_article.typ": *
 #show: doc => conf(
