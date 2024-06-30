@@ -6,11 +6,13 @@
   abstract: [],  
   language: "en",
   bibliography: none,
+  paper: "a4",
   doc,
 ) = {
 
   
 //----- Footnotes ----- //
+
 show footnote.entry: it => {
   set text(
     luma(100),
@@ -32,6 +34,7 @@ set footnote.entry(
 
 
 //----- Headings ----- //
+
 show heading: set text(
   blue,
   weight: "regular",
@@ -43,20 +46,20 @@ show heading.where(
   level: 1
 ): it => [
   #set align(center)
-  #set text(1em, weight: "regular")
-  #block(width: 100%, breakable: false, above: 2.4em,below: 1.6em)[#smallcaps(it.body)]
+  #set text(1.2em, weight: "regular")
+  #block(width: 100%, breakable: false, above: 3.2em,below: 1.6em)[#smallcaps(it.body)]
 ]
 
 show heading.where(
   level: 2
 ): it => [
   #set text(1.1em, weight: "regular")
-  #block(width: 100%, breakable: false,below: 1.6em,above: 1.6em)[#h(1.6em)#it.body]
+  #block(width: 100%, breakable: false,below: 1.6em,above: 1.6em)[#it.body]
 ]
 
 
-
 //----- Body, abstract, page number ----- //
+
 show par: set block(spacing: .8em)
 
 set text(
@@ -67,7 +70,7 @@ set text(
   lang: language,
 )
 set page(
-  "a4",
+  paper: "a4",
   footer: context {
     if counter(page).get().first() == 1 [
     #set align(right)
