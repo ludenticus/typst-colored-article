@@ -1,6 +1,25 @@
 # typst-colored-article
 Typst template for articles, useful to deliver reports with some colors.
 
+## Characteristics
+
+1. **Colors**: Title, author, chapter/section, running header with page number, footnotes & captions
+2. **Layout**: title, author, abstract, margins
+
+## Variables
+
+|  | Description |
+|--|--|
+| title | Document title |
+| name | Author |
+| article_header | Running header from page 2 onwards |
+| abstract | Abstract |
+| language | Default: "en" |
+| bibliography | Bibliography file. Default style: "chicago-notes" |
+| paper | Paper size. Default: "a4" |
+| doc | Document body |
+
+
 ## Use
 
 ```typst
