@@ -1,7 +1,7 @@
 # typst-colored-article
-Typst template for articles, useful to deliver reports with some colors.
+[Typst](https://typst.app) template for articles, useful to deliver reports with some colors.
 
-## Characteristics
+## Features
 
 1. **Colors**: Title, author, chapter/section, running header with page number, footnotes & captions
 2. **Layout**: title, author, abstract, margins
