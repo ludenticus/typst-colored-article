@@ -27,6 +27,7 @@ This typst template can be useful to produce reports and student works.
 
 ## Limitations
 - Only two levels of headers
+- Static header
 
 ## Use
 
