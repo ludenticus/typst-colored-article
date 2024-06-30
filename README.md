@@ -5,6 +5,7 @@ Typst template for articles, useful to deliver reports with some colors.
 
 1. **Colors**: Title, author, chapter/section, running header with page number, footnotes & captions
 2. **Layout**: title, author, abstract, margins
+3. **Fonts**: _Source Serif Pro_ for the body and _Source Sans Pro_ for the rest of the elements.
 
 ![Screenshot from template](https://github.com/ludenticus/typst-colored-article/assets/813198/c8e16a6e-8718-4910-abc1-767d3d08ff54)
 
