@@ -6,6 +6,9 @@ Typst template for articles, useful to deliver reports with some colors.
 1. **Colors**: Title, author, chapter/section, running header with page number, footnotes & captions
 2. **Layout**: title, author, abstract, margins
 
+![Screenshot from template](https://github.com/ludenticus/typst-colored-article/assets/813198/c8e16a6e-8718-4910-abc1-767d3d08ff54)
+
+
 ## Variables
 
 |  | Description |
@@ -19,6 +22,11 @@ Typst template for articles, useful to deliver reports with some colors.
 | paper | Paper size. Default: "a4" |
 | doc | Document body |
 
+## Use case
+This typst template can be useful to produce reports and student works.
+
+## Limitations
+- Only two levels of headers
 
 ## Use
 
